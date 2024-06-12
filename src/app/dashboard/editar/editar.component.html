@@ -1,0 +1,36 @@
+<div class="content col-12 p-0 m-0">
+    <div class="row col-12 m-0 justify-content-end">
+        <div class="text-center mt-5 col-5 m-auto">
+
+            <div class="form-login">
+                <h4>Editar Usuario</h4>
+
+                <form id="registroForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" [(ngModel)]="datosUsuario[0].Nombre" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidoPaterno">Apellido Paterno:</label>
+                        <input type="text" [(ngModel)]="datosUsuario[0].ape_pa" id="ape_pa" name="ape_pa" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidoMaterno">Apellido Materno:</label>
+                        <input type="text" [(ngModel)]="datosUsuario[0].ape_ma" id="ape_ma" name="ape_ma" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" [(ngModel)]="datosUsuario[0].email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Contraseña:</label>
+                        <input type="password" [(ngModel)]="datosUsuario[0].password" id="password" name="password"
+                            required minlength="6">
+                    </div>
+                    <button (click)="actualizar()" type="submit" class="btn btn-primary">Modificar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

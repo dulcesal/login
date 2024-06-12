@@ -1,0 +1,75 @@
+.content {
+    background-image: url('https://img.freepik.com/fotos-premium/ganado-vaca-hd-8k-vector-ilustracion-fondo-pantalla-imagen-archivo_915071-36620.jpg');
+    background-size: 100% 100%;
+    -webkit-font-smoothing: antialiased;
+    font: normal 14px Roboto, arial, sans-serif;
+    height: 100vh;
+    font-family: 'Dancing Script', cursive !important;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff !important;
+    opacity: 1;
+    /* Firefox */
+    font-size: 18px !important;
+}
+
+.form-login {
+    background-color: rgba(0, 0, 0, 0.55);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color: #d2d2d2;
+    border-width: 5px;
+    color: white;
+    box-shadow: 0 1px 0 #cfcfcf;
+}
+
+
+.form-control {
+    background: transparent !important;
+    color: white !important;
+    font-size: 18px !important;
+}
+
+h1 {
+    color: white !important;
+}
+
+h4 {
+    border: 0 solid #fff;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+
+.wrapper {
+    text-align: center;
+}
+
+.footer p {
+    font-size: 18px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #251c1c;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
